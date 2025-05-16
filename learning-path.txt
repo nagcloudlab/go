@@ -1,0 +1,115 @@
+
+
+🔹 1. Go Basics
+Hello World, Go Playground
+Variables & Constants
+Functions & Variadic Params
+Conditionals & Loops
+Arrays, Slices, Maps
+Structs and Methods
+Pointers (value vs reference)
+Packages & Modules (go mod)
+
+
+
+🔹 2. Control Flow & Types
+Interfaces (static vs dynamic dispatch)
+Type assertions & type switches
+Error handling (error, fmt.Errorf, errors.Is)
+Defer, Panic, Recover
+Custom error types
+
+
+🔹 3. Concurrency (Go’s superpower)
+Goroutines
+Channels (buffered/unbuffered)
+Select statements
+Context (timeout, cancel)
+sync.WaitGroup, sync.Mutex
+Worker Pools
+Pipelines
+Fan-In / Fan-Out
+
+🔹 4. Testing & TDD
+testing package basics
+Table-driven tests
+Benchmark tests
+Mocks and interfaces
+Test coverage reports
+go test -v, -run, -cover
+
+🔹 5. Standard Library Power
+net/http: REST API server
+io, os: File I/O
+encoding/json, encoding/csv
+log, time, context
+regexp, strings, strconv
+
+strconv
+
+🔹 6. Tooling & DevOps
+go fmt, go vet, go mod tidy
+go generate for automation
+golangci-lint, staticcheck
+Debugging with Delve (dlv)
+Profiling with pprof
+Module proxy & versioning
+
+
+🔹 7. Web Development
+REST APIs with net/http or frameworks (e.g. Gin, Echo)
+Middleware design
+HTML templates (html/template)
+JSON and URL decoding
+File uploads & downloads
+
+ 8. Microservices
+RPC/gRPC in Go
+Pub/Sub with Kafka or NATS
+Structured logging (zap, zerolog)
+Configuration with Viper
+Service discovery and health checks
+
+🔹 9. Databases
+SQL: database/sql + pq or mysql
+ORM: gorm, sqlx
+NoSQL: MongoDB with mongo-go-driver
+Transactions and connection pooling
+
+🔹 10. Design & Architecture
+SOLID principles in Go
+Clean Architecture
+Hexagonal Architecture
+Dependency Injection (manual)
+Writing idiomatic, testable code
+
+code
+
+🔹 11. Advanced Patterns
+Functional options pattern
+Middleware chaining
+Interfaces + strategy pattern
+Plug-in design (via interfaces)
+Generics (Go 1.18+)
+Type parameters & constraints
+
+🔹 12. Frameworks & Libraries
+Web: Gin, Echo, Fiber
+CLI: Cobra, urfave/cli
+GraphQL: gqlgen
+Validation: go-playground/validator
+Config: Viper, envconfig
+
+🔹 13. Cloud & Infra
+Dockerize Go apps
+Go with Kubernetes (Probes, Secrets, ConfigMaps)
+Cloud SDKs: AWS (aws-sdk-go), GCP (cloud.google.com/go)
+Tracing: OpenTelemetry in Go
+
+
+🔹 14. Security
+JWT Authentication
+OAuth2 with golang.org/x/oauth2
+Rate limiting (golang.org/x/time/rate)
+Secure file handling & uploads
+Avoiding race conditions
